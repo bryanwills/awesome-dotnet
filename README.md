@@ -134,6 +134,7 @@ To the extent possible under law, [Vitali Fokin](https://github.com/quozd) has w
 
 ## Algorithms and Data structures
 
+* [OneOf](https://github.com/mcintyre321/OneOf) - OneOf provides discriminated unions for C# with exhaustive compile time matching.
 * [Algorithmia](https://github.com/SolutionsDesign/Algorithmia) - Algorithm and data-structure library for .NET 3.5 and up. Algorithmia contains sophisticated algorithms and data-structures like graphs, priority queues, command, undo-redo and more.
 * [C# Algorithms](https://github.com/aalhour/C-Sharp-Algorithms) - A C# plug-and-play class-library project of standard Data Structures and Algorithms. It contains 35+ Data Structures and 30+ Algorithms designed as Object-Oriented isolated components.
 * [Towel](https://github.com/ZacharyPatten/Towel) - data structures, algorithms, mathematics, metadata, extensions, console, measurements, and other useful stuff
@@ -317,6 +318,7 @@ To the extent possible under law, [Vitali Fokin](https://github.com/quozd) has w
 * [DotNetNuke](https://www.dnnsoftware.com/community/download) - DNN Platform is our free, open source web CMS and the foundation of every professional DNN solution. Over 750,000 organizations worldwide have built websites powered by the DNN Platform.
 * [BlogEngine.NET](https://github.com/rxtur/BlogEngine.NET) - Simple but full featured ASP.NET blog
 * [Squidex](https://github.com/Squidex/squidex) ![GitHub stars](https://img.shields.io/github/stars/Squidex/squidex?style=flat-square&cacheSeconds=604800) ![GitHub stars](https://img.shields.io/github/last-commit/Squidex/squidex?style=flat-square&cacheSeconds=86400) - Open source headless CMS and content management hub.  https://squidex.io
+* [fluent-cms](https://github.com/fluent-cms/fluent-cms) - RESTful CRUD (Create, Read, Update, Delete) APIs, Admin Panel web pages,a GraphQL-style query designer and a WYSIWYG web page designer, all fully configurable without writing code.
 
 ## Code Analysis and Metrics
 
@@ -364,6 +366,7 @@ To the extent possible under law, [Vitali Fokin](https://github.com/quozd) has w
 * [Amplifier.NET](https://github.com/tech-quantum/Amplifier.NET) - Write and compile your own kernel function using C# and Amplifier will take care of running it on your favorite hardware. Amplifier allows .NET developers to easily run complex applications with intensive mathematical computation on Intel CPU/GPU, NVIDIA, AMD without writing any additional C kernel code.
 * [IKVM](https://ikvm.org) - A Java Virtual Machine and Bytecode-to-IL Converter for .NET. Execute compiled Java code (bytecode) on .NET Framework or .NET Core.
 * [Lib.Harmony](https://github.com/pardeike/Harmony) - Rewrite mono and C# methods at the runtime, Either write a method that will be executed, or edit the code of the method in IL, mainly used for game modding.  
+* [dotnet-repl](https://github.com/jonsequitur/dotnet-repl) - C# REPL (read-eval-print loop)
 
 ## Compression
 
@@ -957,6 +960,7 @@ metadata in media files, including video, audio, and photo formats
 * [Dapper](https://github.com/StackExchange/Dapper) - A simple object mapper for .NET by [StackExchange](https://stackexchange.github.io/)
 * [Dapper Extensions](https://github.com/tmsmith/Dapper-Extensions) - Small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs
 * [Dapper.FastCRUD](https://github.com/MoonStorm/Dapper.FastCRUD) - The fastest micro-ORM extension for Dapper
+* [DapperQueryBuilder](https://github.com/Drizin/DapperQueryBuilder) - Dapper Query Builder using String Interpolation and Fluent API
 * [SqlSugar](https://github.com/donet5/SqlSugar) - Another ORM library supports many RDBMS including MySql, SqlServer, Sqlite, Oracle, Postgresql
 * [FreeSql](https:/github.com/dotnetcore/FreeSql) - a convenient ORM in dotnet, supports MySql, SqlServer, PostgreSQL, Oracle, Sqlite, Firebird, 达梦, 人大金仓, 神舟通用, 翰高 and Access.
 * [NHibernate](https://github.com/nhibernate) - NHibernate Object Relational Mapper
@@ -1024,6 +1028,7 @@ metadata in media files, including video, audio, and photo formats
 
 ## Query Builders
 * [SqlKata](https://sqlkata.com) - Elegant SQL query builder, that supports complex queries, joins, sub queries, nested where conditions, vendor engine targets and more
+* [InterpolatedSql](https://github.com/Drizin/InterpolatedSql) - SQL Builder using String Interpolation and Fluent API
 
 ## Queue
 * [CAP](https://github.com/dotnetcore/CAP) - An EventBus with local persistent message functionality for RabbitMQ or Kafka.
@@ -1270,7 +1275,7 @@ metadata in media files, including video, audio, and photo formats
 ## Web Frameworks
 
 * [ASP.NET MVC](https://dotnet.microsoft.com/apps/aspnet) - ASP.NET is a free web framework for building great web sites and applications
-* [Coalesce](https://coalesce.intellitect.com/) - Coalesce is a framework for rapid-development of ASP.NET Core web applications.
+* [Coalesce](https://github.com/IntelliTect/Coalesce/) - Coalesce is a framework for rapid-development of ASP.NET Core web applications.
 * [CodeBehind Framework](https://github.com/elanatframework/Code_behind) - Modern and powerful back-end framework under ASP.NET Core.
 * [FubuMVC](https://github.com/DarthFubuMVC/fubumvc) - A front-controller style MVC framework for .NET
 * [NancyFx](https://github.com/NancyFx/Nancy) - Lightweight, low-ceremony, framework for building HTTP-based services on .NET and Mono
@@ -1320,11 +1325,13 @@ metadata in media files, including video, audio, and photo formats
   
 ## Source Generator
 
+* [CodegenCS](https://github.com/Drizin/CodegenCS) - Code Generation Toolkit where templates are written using plain C#. Command-line tool, MSBuild task, Visual Studio Extension, and Roslyn Source Generator. 
 * [M31.FluentAPI](https://github.com/m31coding/M31.FluentAPI) - Effortlessly generate fluent APIs for your C# classes.
 * [Supernova.Enum.Generators](https://github.com/EngRajabi/Enum.Source.Generator) - A C# source generator to create an enumeration class from an enum type. With this package, you can work on enums very, very fast without using reflection.
 
 # Other Lists
 
+* [List of Automated Testing Tools and Frameworks for .NET](https://github.com/dariusz-wozniak/List-of-Testing-Tools-and-Frameworks-for-.NET) - List of Automated Testing (TDD/BDD/ATDD/SBE) Tools and Frameworks for .NET
 * [.NET-libraries-that-make-your-life-easier](https://github.com/tallesl/net-libraries-that-make-your-life-easier) - Open Source .NET libraries that make your life easier
 * [awesome-LINQ](https://github.com/aloisdg/awesome-linq) - A curated collection of awesome LINQ libraries, tools, and more.
 * [awesome-analyzers](https://github.com/Cybermaxs/awesome-analyzers) - A curated list of .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
